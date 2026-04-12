@@ -211,7 +211,7 @@ export default function HomePage() {
               ) : (
                 <>
                   <a href="/register" className="bg-brand-orange text-white font-extrabold px-8 py-4 rounded-xl hover:bg-brand-orange/90 shadow-lg shadow-brand-orange/25">Get Started Free</a>
-                  <a href="/login" className="bg-white border border-brand-dark/20 text-brand-dark font-semibold px-8 py-4 rounded-xl hover:bg-brand-cream">Log In</a>
+                  <a href="/auth" className="bg-white border border-brand-dark/20 text-brand-dark font-semibold px-8 py-4 rounded-xl hover:bg-brand-cream">Log In</a>
                 </>
               )}
             </div>
