@@ -136,7 +136,7 @@ function LoginModal({ onClose }) {
         <p className="text-brand-dark/55 text-sm mb-6 leading-relaxed">Create a free account to explore full route details, track your rides, and join the community.</p>
         <div className="flex flex-col gap-3">
           <a href="/register" className="bg-brand-orange text-white font-bold py-3 px-6 rounded-xl hover:bg-brand-orange/90 transition-colors">Get Started Free</a>
-          <a href="/login" className="border border-brand-dark/20 text-brand-dark font-semibold py-3 px-6 rounded-xl hover:bg-brand-cream transition-colors">Log In</a>
+          <a href="/auth" className="border border-brand-dark/20 text-brand-dark font-semibold py-3 px-6 rounded-xl hover:bg-brand-cream transition-colors">Log In</a>
         </div>
         <button onClick={onClose} className="mt-5 text-xs text-brand-dark/35 hover:text-brand-dark/60">Maybe later</button>
       </div>
