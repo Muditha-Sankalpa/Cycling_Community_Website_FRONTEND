@@ -59,7 +59,7 @@ export default function AuthPage() {
 
         {/* Logo */}
         <div className="mb-8 text-center">
-          <h1 className="text-brand-cream text-3xl font-bold tracking-wide">EcoRide</h1>
+          <h1 className="text-brand-cream text-3xl font-bold tracking-wide">Routify</h1>
           <p className="text-brand-sage text-sm mt-1">Your eco-friendly cycling companion</p>
         </div>
 
