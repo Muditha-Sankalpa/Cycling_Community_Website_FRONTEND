@@ -29,7 +29,7 @@ export default function AuthPage() {
 
     setLoading(true);
     try {
-      const endpoint = mode === 'login' ? '/login' : '/register';
+      const endpoint = mode === 'login' ? '/api/users/login' : '/api/users/register';
       const payload = mode === 'login'
         ? { email: form.email, password: form.password }
         : { name: form.name, email: form.email, password: form.password };
